@@ -1,5 +1,5 @@
 
-import useReview from "../../Hook/Hook";
+import useReview from "../Hook/Hook";
 import ReviewCard from "../ReviewCard/ReviewCard";
 
 const Reviews = () => {
