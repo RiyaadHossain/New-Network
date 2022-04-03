@@ -14,16 +14,21 @@ const Home = () => {
             <span className="text-sky-500">Biggest Market</span>
           </h1>
           <p className="text-xl mt-7 font-thin">
-            Here you'll find the most advanced laptops from the biggest online shop. We have almost all collection of smart and advanced laptops as you want. Also, we offer 2 years of warranty of every laptops you buy from our site.
+            Here you'll find the most advanced laptops from the biggest online
+            shop. We have almost all collection of smart and advanced laptops as
+            you want. Also, we offer 2 years of warranty of every laptops you
+            buy from our site.
           </p>
         </div>
         <div className="banner-img flex items-center justify-center w-1/2">
           <img className="rounded-lg" src={Image} alt="" />
         </div>
       </div>
-          {
-              reviews.map((review, index) => <HomeReview key={index} reviews={review}/>)
-      }
+      <div>
+        {reviews.slice(0, 3).map((review, index) => (
+          <HomeReview key={index} reviews={review} />
+        ))}
+      </div>
     </>
   );
 };
