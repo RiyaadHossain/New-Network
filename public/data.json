@@ -1,0 +1,38 @@
+[
+    {
+      "name": "Riyad",
+      "img": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "review": "Abosolutely Awesome Product",
+      "rating": 5
+    },
+    {
+      "name": "Shuvo",
+      "img": "https://images.pexels.com/photos/716411/pexels-photo-716411.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "review": "The Laptop I bought is working really well",
+      "rating": 4.5
+    },
+    {
+      "name": "Nishat",
+      "img": "https://images.pexels.com/photos/2738919/pexels-photo-2738919.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "review": "I bought \"ThinkPad Yoga 12\" laptop which condition is totally bad",
+      "rating": 2.5
+    },
+    {
+      "name": "Sangram",
+      "img": "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "review": "Undoubtedly, You have the best Laptop in the universe",
+      "rating": 5
+    },
+    {
+      "name": "Redo",
+      "img": "https://images.pexels.com/photos/1043473/pexels-photo-1043473.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "review": "It's, to some extend, good",
+      "rating": 3.5
+    },
+    {
+      "name": "Zayan",
+      "img": "https://images.pexels.com/photos/941693/pexels-photo-941693.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "review": "Wow, supper cool",
+      "rating": 5
+    }
+  ]
