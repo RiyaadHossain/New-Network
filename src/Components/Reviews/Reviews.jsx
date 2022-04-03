@@ -1,14 +1,10 @@
-import React, { useEffect, useState } from "react";
+
+import useReview from "../../Hook/Hook";
 import ReviewCard from "../ReviewCard/ReviewCard";
 
 const Reviews = () => {
-  const [reviews, setReviews] = useState([]);
-  useEffect(() => {
-    fetch("data.json")
-      .then((res) => res.json())
-      .then((data) => setReviews(data));
-  }, []);
-    console.log(reviews);
+
+    const [reviews] =useReview()
   return (
     <div className="container mx-auto mt-16">
       <h1 className="text-center text-5xl">
