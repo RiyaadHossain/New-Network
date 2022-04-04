@@ -21,7 +21,7 @@ const Chart = () => {
     { month: "Aug", investment: 700000, sell: 670, revenue: 61000 },
   ];
   return (
-    <div className=" container mx-auto">
+    <div className=" container mx-auto mt-20">
           <LineChart
               className="mx-auto"
         width={730}

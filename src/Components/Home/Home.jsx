@@ -24,10 +24,13 @@ const Home = () => {
           <img className="rounded-lg" src={Image} alt="" />
         </div>
       </div>
-      <div>
-        {reviews.slice(0, 3).map((review, index) => (
+      <div className="container mx-auto">
+      <h1 className="text-center text-5xl">
+        Customer <span className="text-sky-500">Reviews</span>
+      </h1>
+        <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">{reviews.slice(0, 3).map((review, index) => (
           <HomeReview key={index} reviews={review} />
-        ))}
+        ))}</div>
       </div>
     </>
   );
