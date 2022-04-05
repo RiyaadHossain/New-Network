@@ -2,6 +2,7 @@ import React from "react";
 import useReview from "../Hook/Hook";
 import Image from "../../Images/laptopBG.jpg";
 import HomeReview from "../HomeReview/HomeReview";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const [reviews] = useReview();
@@ -32,6 +33,7 @@ const Home = () => {
           <HomeReview key={index} reviews={review} />
         ))}</div>
       </div>
+     <div className="text-center  my-10"><Link className="rounded text-white hover:bg-sky-800 transition-all ease-out bg-sky-600 py-2 px-5 font-bold" to={'/reviews'}>All Reviews</Link></div>
     </>
   );
 };
